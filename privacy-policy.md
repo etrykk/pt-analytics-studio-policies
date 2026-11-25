@@ -2,7 +2,7 @@
 
 **Status:** Draft for review  
 **Proposed effective date:** November 25, 2026  
-**Version:** 2026-11-25  
+**Version:** 2026-11-25-r2  
 **Developer and proposed operator:** Ethan Gudvangen (operator responsibility pending confirmation)  
 **Release:** V4 Limited Real-Data Beta — invite-only
 
@@ -31,7 +31,9 @@ Do not submit medical records, diagnoses, sensitive medical histories, payment-c
 Information may be disclosed to authorized service providers as necessary to operate the service, address security incidents or meet applicable legal obligations. The proposed beta does not include selling personal information. Any additional uses or disclosures require review and appropriate notice.
 
 ## 9. Retention and deletion
-Users may request access, correction, export or deletion through the privacy contact. Deletion requests require manual processing; submitting a request does not automatically erase records. Information may temporarily remain in backups or be retained where required by applicable obligations. Retention periods, backup expiration, identity verification and deletion procedures must be documented and approved before activation.
+Users may request access, correction, export or deletion through the privacy contact. Deletion requests require authorized review and processing; submitting or reviewing a request does not automatically erase records. Eligible primary records may be removed after verification. Requests involving financial history require separate retention review; we do not promise that all records can be erased immediately.
+
+Deleted information may temporarily remain in protected backups. As confirmed in the hosting dashboard on November 25, 2026, automatic point-in-time recovery currently covers three days and hosting-provider database exports are retained for at least seven days. Seven days is a minimum, not a guaranteed maximum. The proposed internal target for reviewing and expiring locally downloaded backups is 30 days, subject to documented exceptions and operational verification. Restored backups must be handled consistently with applicable deletion and access-revocation decisions. Final retention, backup expiration and deletion procedures remain subject to approval before activation.
 
 ## 10. Limited beta
 The beta is invite-only and may experience errors, changes or interruptions. Trainers should retain independent copies of important records. The Sample demo uses fictional data. The limited pilot reuses existing staging infrastructure; it is not a separate production database. Identifiable client records must not be submitted until activation is approved.

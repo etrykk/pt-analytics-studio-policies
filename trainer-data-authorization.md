@@ -2,7 +2,7 @@
 
 **Status:** Draft for review  
 **Proposed effective date:** November 25, 2026  
-**Version:** 2026-11-25  
+**Version:** 2026-11-25-r2  
 **Developer and proposed operator:** Ethan Gudvangen (operator responsibility pending confirmation)  
 **Release:** V4 Limited Real-Data Beta — invite-only
 
@@ -28,7 +28,7 @@ Predictions may be incomplete, inaccurate or affected by limited data. Trainers 
 Trainers must protect credentials, prevent unauthorized workspace access, avoid unauthorized account sharing, report suspected incidents and review the accuracy and appropriateness of submitted information.
 
 ## 8. Data management
-Trainers may use available export and privacy-request features. Deletion and account closure requests require review and manual processing. Trainers must communicate relevant client privacy requests when necessary. Retention, deletion and access-revocation procedures must be approved before the real-data pilot begins.
+Trainers may use available export and privacy-request features. Deletion and account closure requests require authorized review and processing. A reviewed request does not itself erase records or close an account. Requests involving financial history require a separate retention review. Deleted information may temporarily remain in protected backups as described in the Privacy Policy. Trainers must communicate relevant client privacy requests when necessary. Retention, deletion and access-revocation procedures must be approved before the real-data pilot begins.
 
 ## 9. Beta participation
 Features may change or experience interruptions. Trainers should keep independent copies of important business records. Access may be suspended to address security, privacy or operational concerns. The pilot reuses staging infrastructure and is not a separate production environment. No identifiable client information may be submitted before explicit pilot activation.
